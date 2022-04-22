@@ -1,0 +1,167 @@
+:root {
+  --mainColor: #252734;
+  --secondaryColor: #333646;
+  --acsentColor: #ff9100;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 14px;
+}
+
+#nav {
+  background-color: var(--secondaryColor);
+}
+
+.acsen-color {
+  color: var(--acsentColor);
+}
+.bg-acsen-color {
+  background-color: var(--acsentColor);
+}
+
+/* Hero Banner  */
+
+#hero {
+  padding: 8% 0 0 0;
+  height: 100vh;
+  color: #fff;
+}
+
+#hero .icon:hover {
+  color: var(--acsentColor);
+}
+
+.nav-link {
+  font-size: 13px;
+}
+
+.btnCustom1 {
+  background-color: var(--acsentColor);
+  color: #fff;
+  font-weight: 700;
+  min-width: 150px;
+  font-size: 1rem;
+}
+
+.btnCustom1:hover {
+  box-shadow: 0 0 5px var(--acsentColor);
+}
+
+/* End  Hero Banner  */
+
+/* About  */
+#about {
+  color: #fff;
+  background-color: var(--secondaryColor);
+  padding: 80px 0;
+}
+
+#about h1 {
+  color: #fff;
+}
+
+#about .cardAbout {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--mainColor);
+}
+
+hr {
+  width: 60%;
+  color: var(--acsentColor);
+  margin: 10px auto;
+}
+
+/* End About  */
+
+/* SKILL  */
+#skill {
+  padding: 80px 0 0 0;
+}
+
+#skill img {
+  box-shadow: 0 0 5px silver;
+  border-radius: 50%;
+}
+
+#skill .card {
+  background-color: var(--secondaryColor);
+}
+#skill .card:hover {
+  background-color: var(--acsentColor);
+}
+/* END SKILL  */
+
+/* Sertifikat  */
+#sertifikat {
+  margin-top: 10px;
+  padding: 120px 0 80px 0;
+  background-color: var(--secondaryColor);
+}
+
+#sertifikat h1 {
+  color: #fff;
+}
+/* End Sertifikat  */
+
+/* Galeri */
+#galeriFoto {
+  padding: 80px 0 0 0;
+}
+
+#galeriFoto h1 {
+  color: #fff;
+}
+/*End Galeri */
+
+/* Galeri Project */
+#galeriProject {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--secondaryColor);
+}
+
+/*End Galeri Project */
+
+@media screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  #hero {
+    margin-top: 10%;
+  }
+
+  #about .masukRPL,
+  .prosesBelajar,
+  .impian {
+    display: none;
+  }
+
+  #about .btnDetailAbout {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #ul {
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 1px solid silver;
+  }
+}
+
+}
