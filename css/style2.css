@@ -13,3 +13,145 @@
 body {
   background-color: var(--mainColor);
 }
+
+nav {
+  background-color: var(--secondaryColor);
+}
+
+.nav-link {
+  font-size: 14px;
+}
+/*
+hr {
+  color: var(--acsentColor);
+}
+
+#utama {
+  height: 100vh;
+}
+
+#utama .textMe {
+  margin: 27% 0;
+}
+
+#utama .sosmed {
+  position: absolute;
+  bottom: 0;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+#utama .padding {
+  padding-top: 7%;
+}
+
+#utama .button {
+  background-color: var(--acsentColor);
+  font-weight: bold;
+  color: #fff;
+  padding: 8px;
+}
+#utama .button:hover {
+  box-shadow: 0 0 10px var(--acsentColor);
+  color: black;
+}
+
+#about {
+  height: 100vh;
+  background-color: var(--secondaryColor);
+}
+
+#about .padding {
+  padding-top: 7%;
+}
+
+#skill .padding {
+  padding-top: 7%;
+}
+
+#skill .kartu {
+  background-color: var(--secondaryColor);
+}
+
+#skill .kartu:hover {
+  background-color: var(--acsentColor);
+}
+
+#sertifikat {
+  background-color: var(--secondaryColor);
+}
+
+#sertifikat .padding {
+  padding-top: 7%;
+}
+
+#foto .padding {
+  padding-top: 7%;
+}
+
+#foto .btnDetailAbout {
+  display: none;
+}
+
+#projek .padding {
+  padding-top: 7%;
+}
+
+#projek {
+  height: 100vh;
+  background-color: var(--secondaryColor);
+}
+
+@media screen and (max-width: 499px) {
+  #ul {
+    width: 100%;
+    background-color: var(--mainColor);
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid silver;
+  }
+
+  #utama .padding {
+    padding-top: 17%;
+  }
+
+  #utama .textMe {
+    margin: 15px 0;
+    width: 100%;
+  }
+
+  #utama .sosmed {
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+
+  #about .padding {
+    padding-top: 20%;
+  }
+
+  #skill .padding {
+    padding-top: 17%;
+  }
+
+  #sertifikat .padding {
+    padding-top: 17%;
+  }
+
+  #foto .padding {
+    padding-top: 17%;
+  }
+
+  #foto .fotoM {
+    display: none;
+  }
+
+  #projek .padding {
+    padding-top: 17%;
+  }
+} */
