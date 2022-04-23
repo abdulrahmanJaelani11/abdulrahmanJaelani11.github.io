@@ -60,7 +60,6 @@ hr {
 }
 
 #about {
-  height: 100vh;
   background-color: var(--secondaryColor);
 }
 
@@ -106,16 +105,45 @@ hr {
 }
 
 @media screen and (max-width: 499px) {
-  #ul {
+  /* #ul {
     width: 100%;
     background-color: var(--mainColor);
     border-radius: 20px;
     padding: 15px;
     border: 1px solid silver;
-  }
+  } */
 
   body {
     overflow-x: hidden;
+  }
+
+  #about {
+    overflow-x: hidden;
+  }
+  #skill {
+    overflow-x: hidden;
+  }
+  #sertifikat {
+    overflow-x: hidden;
+  }
+  #foto {
+    overflow-x: hidden;
+  }
+  #projek {
+    overflow-x: hidden;
+  }
+
+  #utama .iam {
+    margin-bottom: 0;
+  }
+
+  #utama .nama {
+    margin-bottom: -12px;
+  }
+
+  #utama .job {
+    margin: -10px 0 5px 0;
+    font-size: 14px;
   }
 
   #utama .padding {
@@ -127,10 +155,10 @@ hr {
     width: 100%;
   }
 
-  #utama .sosmed {
+  /* #utama .sosmed {
     position: absolute;
     bottom: 10px;
-  }
+  } */
 
   .icon {
     font-size: 18px;
