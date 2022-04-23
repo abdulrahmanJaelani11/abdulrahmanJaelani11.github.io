@@ -11,6 +11,7 @@
 }
 
 body {
+  overflow-x: hidden;
   background-color: var(--mainColor);
 }
 
@@ -21,7 +22,7 @@ nav {
 .nav-link {
   font-size: 14px;
 }
-/*
+
 hr {
   color: var(--acsentColor);
 }
@@ -36,7 +37,7 @@ hr {
 
 #utama .sosmed {
   position: absolute;
-  bottom: 0;
+  bottom: 5%;
 }
 
 .icon {
@@ -113,6 +114,10 @@ hr {
     border: 1px solid silver;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
   #utama .padding {
     padding-top: 17%;
   }
@@ -154,4 +159,4 @@ hr {
   #projek .padding {
     padding-top: 17%;
   }
-} */
+}
