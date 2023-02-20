@@ -117,19 +117,19 @@ hr {
   }
 
   #about {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   #skill {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   #sertifikat {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   #foto {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   #projek {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   #utama .iam {
