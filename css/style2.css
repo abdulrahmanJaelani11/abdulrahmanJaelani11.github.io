@@ -91,6 +91,10 @@ hr {
   padding-top: 7%;
 }
 
+/* #foto {
+  height: 600px;
+} */
+
 #foto .btnDetailAbout {
   display: none;
 }
@@ -127,6 +131,7 @@ hr {
   }
   #foto {
     /* overflow-x: hidden; */
+    height: 370px;
   }
   #projek {
     /* overflow-x: hidden; */
